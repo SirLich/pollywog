@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://Pollywog.tscn" type="PackedScene" id=1]
+
+[node name="Game" type="Node2D"]
+
+[node name="Pollywog" parent="." instance=ExtResource( 1 )]
+position = Vector2( 311.468, 216.561 )
+move_speed = 200
+rotate_speed = 3
